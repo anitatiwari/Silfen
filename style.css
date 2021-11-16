@@ -65,3 +65,30 @@ header a:hover {
   margin-left: 2rem;
   margin-right: 2rem;
 }
+
+
+
+/*productpage*/
+.productpage{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 0 6rem;
+}
+/* .bag{
+  display: grid;
+  grid-template-row: 1fr 1fr;
+} */
+.smallbag{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:  2rem;
+}
+.smallimg1:hover{
+  transform: scale(2);}
+  
+ .description{
+   font-size: 1.3rem;
+ } 
+
+
+

@@ -23,7 +23,7 @@ function productlist(product) {
   document.querySelector(".productimage").src = product.image;
 document.querySelector(".price").textContent = `${product.price}`;
 document.querySelector(".smallimg1").src=product.image_left;
-document.querySelector("smallimg2").src=product.image_inside;
+document.querySelector(".smallimg2").src=product.image_inside;
 
   document.querySelector(".description").textContent = product.description;
 
