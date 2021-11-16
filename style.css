@@ -68,7 +68,8 @@ header a:hover {
   margin-right: 2rem;
 }
 .wrap {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 30px;
   gap: 30px;
   text-align: justify;
@@ -80,4 +81,34 @@ blockquote {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+h2 {
+  color: #0c92f1;
+}
+blockquote {
+  color: #0c92f1;
+  text-shadow: #7bafd4;
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+  }
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
