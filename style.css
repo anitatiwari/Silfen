@@ -1,1 +1,37 @@
-background
+header {
+  font-family: monospace;
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+}
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+}
+
+.header a {
+  padding: 7.5px 15px;
+  background: #7bafd4;
+  border: 1px #006d6d solid;
+  border-radius: 50em;
+  color: black;
+}
+.log {
+  display: block;
+  margin: auto;
+}
+
+.productlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
