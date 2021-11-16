@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+.footer {
+    padding-top: 30px;
+    background-color:#7BAFD4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    line-height: 1.5em;
+    
+   
+}
+.last a{
+  line-height: 1.7em;
+
+}
+.rest-footer {
+    display: grid;
+    line-height: 1.5em;
+    column-gap: 50px;
+    padding-left: 40px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.first {
+    padding-left: 60px;
+}
+=======
 header {
   font-family: monospace;
   font-size: 20px;
@@ -35,3 +67,4 @@ header a:hover {
   margin-left: 2rem;
   margin-right: 2rem;
 }
+>>>>>>> 2d8a9a124e1f7d612076af0324ed8f093c6c5c91
