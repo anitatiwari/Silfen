@@ -17,10 +17,10 @@ function handleProductList(data) {
      const template = document.querySelector("#smallProductTemplate").content;
 
      const copy = template.cloneNode(true);
-     copy.querySelector(".productName").textContent=product.productname
+     copy.querySelector(".productName").textContent=product.productname;
      copy.querySelector( "img"  ).src =product.image ;
      copy.querySelector(".price").textContent = `${product.price}`;
-
+copy.querySelector("a").href +=product.id;
 // copy.querySelector(".description").textContent=product.description
        const parent = document.querySelector("main");
        parent.appendChild(copy);
