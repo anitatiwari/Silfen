@@ -1,4 +1,4 @@
-const url="https://anugraph.com/files/WPSilfen/wp-json/wp/v2/product"
+const url="https://anugraph.com/files/WPSilfen/wp-json/wp/v2/product?per_page=100"
 
 fetch(url)
   .then(function (res) {
