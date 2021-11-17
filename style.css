@@ -43,6 +43,10 @@ header a {
 
 header a:hover {
   color: white;
+
+}
+svg:hover{
+  color: white;
 }
 .instagram a {
   text-decoration: none;
@@ -53,8 +57,8 @@ header a:hover {
 
 .header a {
   padding: 7.5px 15px;
-  background: #7bafd4;
-  border: 1px #006d6d solid;
+  background: #9ecbeb;
+
   border-radius: 50em;
   color: black;
 }
@@ -112,6 +116,14 @@ blockquote {
   grid-template-columns: 1fr 1fr ;
   margin: 0 6rem;
 }
+.productname{
+  display: block;
+  margin: auto;
+} 
+.price{
+  display: block;
+  margin: auto;
+}
 /* .bag{
   display: grid;
   grid-template-row: 1fr 1fr;
@@ -129,7 +141,7 @@ blockquote {
     
  } 
  .des{
-   margin: 7em;
+   margin: 5em;
    
  }
 
@@ -191,7 +203,7 @@ button:hover
   box-shadow: 10px 10px 5px grey;
 }
 .svgicons{
-  padding: 2px;
+  /* padding: 2px; */
   
 
   background: none;
@@ -215,5 +227,38 @@ button:hover
     grid-template-columns: 1fr;
   }
 
+  .productpage{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+}
+@media only screen and (min-width: 320px) and (max-width: 667px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
+  .productpage{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:0;
+   }
+  header a{
+     margin: auto;
+  }
+   .icons{
+     position: relative;
+     display: inline-flex;
+     right: 0.5rem;
+   }
+   
+   .des{
+     margin:0;
+   }
 }
