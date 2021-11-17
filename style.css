@@ -221,7 +221,7 @@ button:hover
 .icons {
   position: absolute;
   right: 2vh;
-  top: 14vh;
+  top: 13vh;
 }
 @media only screen and (min-width: 481px) and (max-width: 786px) {
   .footer {
