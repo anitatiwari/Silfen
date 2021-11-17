@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 .footer {
   padding-top: 30px;
   background-color: #7bafd4;
@@ -111,4 +115,91 @@ blockquote {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+
+
+/*productpage*/
+.productpage{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 0 6rem;
+}
+/* .bag{
+  display: grid;
+  grid-template-row: 1fr 1fr;
+} */
+.smallbag{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:  2rem;
+}
+.smallimg1:hover{
+  transform: scale(2);}
+  
+ .description{
+   font-size: 1.3rem;
+    
+ } 
+ .des{
+   margin: 7em;
+   
+ }
+
+/*add button style*/
+.cart {
+  background-color: #7BAFD4BF; /* Green */
+  border: none;
+  color:black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 2px #999;
+}
+
+.addminus{
+  display: inline-block;
+  display: flex;
+}
+
+#poke1 {
+  padding: 1em;
+  
+}
+#poke2
+  {
+    padding: 1em;
+  }
+#counter{
+  padding: 1em 0;
+}
+.plus{
+
+  border: none;
+  color:black;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 2px #999;
+}
+button:hover
+{background-color: #ce8282
+}
+.bullets{
+  box-shadow: 10px 10px 5px grey;
+}
+.productimage{
+  box-shadow: 2px 10px 5px grey;
+}
+.smallimg1{
+  box-shadow: 10px 10px 5px grey;
+}
+.smallimg2{
+  box-shadow: 10px 10px 5px grey;
+}
 }
