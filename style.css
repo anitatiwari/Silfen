@@ -52,13 +52,14 @@ header a:hover {
 .header a {
   padding: 7.5px 15px;
   background: #7bafd4;
-  border: 1px #006d6d solid;
+
   border-radius: 50em;
   color: black;
 }
 .log {
   display: block;
   margin: auto;
+
 }
 
 .productlist {
@@ -155,4 +156,18 @@ button:hover
 }
 .smallimg2{
   box-shadow: 10px 10px 5px grey;
+}
+
+.svgicons{
+  padding: 2px;
+  
+
+  background: none;
+  border: none;
+  border-radius: none;
+  color: black;
+}
+.icons {
+  position: absolute;
+  right: 20vh;
 }
