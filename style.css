@@ -116,7 +116,7 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-
+}
 
 /*productpage*/
 .productpage{
@@ -202,4 +202,16 @@ button:hover
 .smallimg2{
   box-shadow: 10px 10px 5px grey;
 }
+.svgicons{
+  padding: 2px;
+  
+
+  background: none;
+  border: none;
+  border-radius: none;
+  color: black;
+}
+.icons {
+  position: absolute;
+  right: 20vh;
 }
