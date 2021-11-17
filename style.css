@@ -104,19 +104,7 @@ blockquote {
     grid-template-columns: 1fr;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 786px) {
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-  .wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 
-}
 
 /*productpage*/
 .productpage{
@@ -214,4 +202,18 @@ button:hover
 .icons {
   position: absolute;
   right: 20vh;
+}
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
 }
