@@ -29,6 +29,7 @@
   padding-left: 60px;
 }
 header {
+ 
   font-family: monospace;
   font-size: 20px;
   display: flex;
@@ -244,6 +245,15 @@ button:hover
     justify-content: center;
     flex-wrap: wrap;
   }
+  .icons{
+    position: relative;
+    display: inline-flex;
+    right: 0.5rem;
+    top: 2vh;
+  }
+  .productlist{
+    margin-left: 4rem;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 667px) {
   .footer {
@@ -260,7 +270,7 @@ button:hover
   .productpage{
     display: grid;
     grid-template-columns: 1fr;
-    margin:0;
+    margin-left:0;
    }
   header a{
      margin: auto;
@@ -269,6 +279,7 @@ button:hover
      position: relative;
      display: inline-flex;
      right: 0.5rem;
+     top: 2vh;
    }
    
    .des{
@@ -279,6 +290,10 @@ button:hover
     justify-content: center;
     flex-wrap: wrap;
   }
+  .productlist{
+    margin-left: 6rem;
+  }
+  
 }
 
 /* Aboutpage */
