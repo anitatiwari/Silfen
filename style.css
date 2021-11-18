@@ -222,9 +222,9 @@ button:hover
 .icons {
   position: absolute;
   right: 2vh;
-  top: 13vh;
+  top: 14vh;
 }
-@media only screen and (min-width: 481px) and (max-width: 786px) {
+@media only screen and (min-width: 481px) and (max-width: 885px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -249,13 +249,25 @@ button:hover
     position: relative;
     display: inline-flex;
     right: 0.5rem;
-    top: 2vh;
+    top: 0.01vh;
   }
   .productlist{
     margin-left: 4rem;
   }
+ 
+    .icons a{
+      margin: 2px;
+   
+     }
+
+  
 }
 @media only screen and (min-width: 320px) and (max-width: 667px) {
+  .icons a{
+   margin: 2px;
+
+  }
+ 
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
